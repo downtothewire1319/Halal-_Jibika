@@ -1,0 +1,29 @@
+.header_nav{
+    background-color: #05815a;
+    padding: 1.5rem 0;
+}
+.header_nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.header_part{
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+.header_part li{
+    padding: 0 1rem ;
+}
+
+    
+
+.header_nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    
+
+}

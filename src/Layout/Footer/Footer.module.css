@@ -1,0 +1,25 @@
+.footer{
+    /* background-color: #282828; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 1.5rem; */
+}
+.footer_section ul li{
+    display: flex;
+    color: #000;
+    align-items: baseline;
+}
+
+
+
+
+.footerNav{
+    display: flex;
+    align-items: center;
+}
+.footerNav li{
+    padding-left: 5px;
+}
+.socialLink{
+    cursor: pointer;
+}
