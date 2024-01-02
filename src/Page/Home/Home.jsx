@@ -1,6 +1,9 @@
 import React from "react";
 import style from './Home.module.css'
 import { NavLink } from "react-router-dom";
+import Cards from "../../Components/Card/Cards";
+
+
 
 const Home = () => {
   return (
@@ -21,6 +24,8 @@ const Home = () => {
           />
         </div>
       </div>
+    <Cards/>
+      
 
 
      
