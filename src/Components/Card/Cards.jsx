@@ -23,14 +23,14 @@ const Cards = () => {
                 <div className={style.company_info_one}>
                   <div className={style.company_image}>
                     <img
-                      src={"https://i.postimg.cc/tCjmxCYX/pngwing-com.png"}
+                      src={singleData.logo}
                       alt="company"
                     />
                   </div>
 
                   <div className={style.company_name}>
-                    <h4>Lorem ipsum dolor sit amet.</h4>
-                    <h2>Google</h2>
+                    <h4>{singleData.title}</h4>
+                    <h2>{singleData.companyName}</h2>
                   </div>
                 </div>
 
@@ -38,12 +38,11 @@ const Cards = () => {
                   <span>
                     <CiHeart />
                   </span>
-                  <h3>{singleData.title}</h3>
+                  <h3>{singleData.position}</h3>
                 </div>
               </div>
-              <div className={style.description}>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Similique, beatae?
+              <div className={style.description}>{singleData.description}
+               
               </div>
 
               <div className={style.company_btn_area}>
